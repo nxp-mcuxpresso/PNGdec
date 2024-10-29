@@ -1,0 +1,12 @@
+NXP Software Content Register
+
+package: PNGdec
+Version: 1.0.1
+Outgoing License: Apache-2.0
+License File: LICENSE
+Description: An embedded-friendly PNG image decoding library.
+Release Location: https://github.com/nxp-mcuxpresso/PNGdec
+Origin:
+      BitBank Software, Inc. Written by Larry Bank (Apache -2. 0) - https://github.com/bitbank2/PNGdec/tree/1.0.1
+      Jean-loup Gailly and Mark Adler (zlib)
+      NXP (Apache-2.0)

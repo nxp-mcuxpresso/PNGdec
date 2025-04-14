@@ -5,3 +5,9 @@ config MCUX_COMPONENT_middleware.pngdec
     default n
     help
         Enable middleware.pngdec component
+
+config USE_PNGDEC_DRIVER
+    bool "Use the SDK pngdec driver for HW acceleration"
+    default n
+    help
+        No prefix in generated macro

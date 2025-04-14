@@ -23,8 +23,4 @@ if (CONFIG_MCUX_COMPONENT_middleware.pngdec)
         INCLUDES src
     )
 
-    mcux_add_configuration(
-        CC "-DUSE_PNGDEC_DRIVER=0"
-    )
-
 endif()

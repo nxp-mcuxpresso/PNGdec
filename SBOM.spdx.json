@@ -1,0 +1,64 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "created": "2025-06-19T07:06:38Z",
+    "creators": [
+      "Organization: NXP"
+    ],
+    "licenseListVersion": "3.20"
+  },
+  "name": "PNGdec-v25.06.00",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://nxp.com/spdx/7976a22a-b94b-4efa-91c9-12e046620d82",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-package-7976a22a-b94b-4efa-91c9-12e046620d82",
+      "name": "PNGdec",
+      "versionInfo": "v25.06.00",
+      "licenseConcluded": "(Apache-2.0)",
+      "licenseDeclared": "(Apache-2.0)",
+      "downloadLocation": "https://github.com/nxp-mcuxpresso/PNGdec/",
+      "originator": "Organization: NXP",
+      "supplier": "NOASSERTION",
+      "externalRefs": [],
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-package-a49945e0-6821-4685-bc9f-2a671d05b0cf",
+      "name": "bitbank2/PNGdec",
+      "versionInfo": "1.0.1",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "homepage": "https://github.com/bitbank2/PNGdec",
+      "downloadLocation": "NOASSERTION",
+      "originator": "Organization: bitbank2",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/bitbank2/PNGdec@1.0.1",
+          "referenceType": "purl"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceLocator": "6cc5fba7-dce8-4424-8774-f23d0d530524",
+          "referenceType": "BlackDuck-ComponentOrigin"
+        }
+      ],
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-package-7976a22a-b94b-4efa-91c9-12e046620d82"
+    },
+    {
+      "spdxElementId": "SPDXRef-package-7976a22a-b94b-4efa-91c9-12e046620d82",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-package-a49945e0-6821-4685-bc9f-2a671d05b0cf"
+    }
+  ]
+}

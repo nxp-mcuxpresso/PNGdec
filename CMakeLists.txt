@@ -22,5 +22,11 @@ if (CONFIG_MCUX_COMPONENT_middleware.pngdec)
     mcux_add_include(
         INCLUDES src
     )
+    mcux_add_iar_configuration(
+        CC "--diag_suppress=Pe111"
+    )
 
+    mcux_add_mdk_configuration(
+        CC "-Wno-deprecated-non-prototype"
+    )
 endif()
